@@ -3,7 +3,7 @@
   "name": "nlwheat-node",
   "builds": [
     {
-      "src": "./src/server.js",
+      "src": "package.json", 
       "use": "@vercel/node"
     }
   ]
